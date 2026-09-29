@@ -1,16 +1,385 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#173d32"><title>Alderwick — A little closer to the good life</title><meta name="description" content="Find your own pace in Alderwick. Explore historic lanes, countryside walks, independent shops and a village calendar full of life."><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
-<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#" aria-label="Alderwick home"><span class="brand-icon">a.</span><span>alderwick<small>A PLACE TO BELONG</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span>☰</span></button><nav id="navigation" aria-label="Main navigation"><a href="#discover">Discover</a><a href="#story">Our story</a><a href="#events">What’s on</a><a href="#visit">Plan your visit</a></nav><button class="header-plan" data-planner>Make a day of it <span class="plan-count">0</span></button></header>
-<main id="main"><section class="hero" aria-labelledby="hero-title"><img src="assets/village.jpg" alt="Honey-coloured stone cottages beside a quiet countryside lane" fetchpriority="high"><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow">SMALL TOWN. WIDE OPEN WELCOME.</p><h1 id="hero-title">A little closer<br>to the <em>good life.</em></h1><p>Winding lanes. Familiar faces. Room to breathe.<br>Find your own pace in Alderwick.</p><a class="button cream" href="#discover">Come on in</a></div><div class="hero-bottom"><span>YOUR NEXT FAVOURITE LITTLE PLACE</span><a href="#story">Stay a while. There’s a story here.</a></div></section>
-<div class="welcome-strip"><span>Rooted in history</span><i>✳</i><span>Surrounded by nature</span><i>✳</i><span>Made by our people</span><i>✳</i><span>Always a warm welcome</span></div>
-<section class="section discover" id="discover"><div class="section-heading"><div><p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p><h2>Follow your curiosity.</h2></div><p>Leave the main road behind.<br>The best bits are just around the corner.</p></div><div class="explore-tools"><div class="filters" aria-label="Filter places"><button class="active" data-place-filter="all" aria-pressed="true">All discoveries</button><button data-place-filter="outdoors" aria-pressed="false">The great outdoors</button><button data-place-filter="culture" aria-pressed="false">History & culture</button><button data-place-filter="food" aria-pressed="false">Eat & wander</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="Find your kind of place" aria-label="Search places"></label></div><div id="place-grid" class="place-grid"></div><p id="place-empty" hidden>No places match your search. Try “walk” or choose another category.</p><p class="result-count" id="place-count" aria-live="polite"></p></section>
-<section class="story" id="story"><div class="story-photo"><img src="assets/street.jpg" alt="Traditional stone buildings in an English country village" loading="lazy"><span class="photo-note">Old stones. New stories.</span></div><div class="story-copy"><p class="eyebrow">NOT JUST A PLACE ON THE MAP</p><h2>A small town.<br>A whole lot<br>of <em>heart.</em></h2><p>Alderwick is the sort of place where a short stroll turns into a long conversation. Where independent shops still put their own names above the door, and the countryside begins just beyond the last garden gate.</p><p>From our old market square to the paths along the River Alder, every corner has a story. We’d love you to become part of it.</p><a class="text-link" href="#visit">Get to know the neighbourhood</a></div></section>
-<section class="section events" id="events"><div class="section-heading"><div><p class="eyebrow">GOOD REASONS TO GET TOGETHER</p><h2>A date with Alderwick.</h2></div><div class="event-filters" aria-label="Filter events"><button class="active" data-event-filter="all" aria-pressed="true">All events</button><button data-event-filter="community" aria-pressed="false">Community</button><button data-event-filter="arts" aria-pressed="false">Arts & music</button></div></div><div id="event-list" aria-live="polite"></div></section>
-<section class="slow-banner"><img src="assets/countryside.jpg" alt="A peaceful green landscape in the English countryside" loading="lazy"><div><p class="eyebrow">LESS RUSH. MORE RAMBLE.</p><h2>Some days are better<br>without a timetable.</h2><button class="button cream" data-planner>Find your perfect day</button></div></section>
-<section class="section visit" id="visit"><div><p class="eyebrow">WE’LL PUT THE KETTLE ON</p><h2>A little planning.<br>A lovely day out.</h2><p>Bring comfortable shoes, an appetite, and a little time to get lost in the lanes.</p><button class="button green" data-planner>Build my day in Alderwick</button></div><div class="faq"><details open><summary>Start at the market square</summary><p>The square is the heart of the town and a lovely first stop. Pick up a coffee, browse the independent shops, then follow the signs to the riverside.</p></details><details><summary>Explore on foot</summary><p>The historic centre is compact and best explored slowly. Allow about an hour for the old town loop, or two hours with a riverside detour. Some older lanes have uneven cobbles.</p></details><details><summary>Make it a family day</summary><p>Choose the gentle riverside walk, leave time for the meadow, and stop at the market for something delicious. Check individual event details for suggested ages.</p></details><details><summary>Rain in the forecast?</summary><p>Start with the heritage rooms, spend a little longer in the bookshop, and settle into a café. A slower afternoon can be the best kind.</p></details></div></section>
-<section class="gallery-section"><div class="gallery-title"><p class="eyebrow">POSTCARDS FROM HERE</p><h2>A place worth a second look.</h2><p>Select a photograph to take a closer look.</p></div><div class="gallery"><button data-gallery="0"><img src="assets/village.jpg" alt="Open photograph of the village cottages" loading="lazy"><span>The quiet corners</span></button><button data-gallery="1"><img src="assets/countryside.jpg" alt="Open photograph of rolling countryside" loading="lazy"><span>A breath of fresh air</span></button><button data-gallery="2"><img src="assets/street.jpg" alt="Open photograph of the historic village street" loading="lazy"><span>Stories in every stone</span></button></div></section>
-</main><footer><div class="footer-top"><a class="brand" href="#"><span class="brand-icon">a.</span><span>alderwick<small>A PLACE TO BELONG</small></span></a><p>Come for the day.<br><em>Feel at home.</em></p><nav aria-label="Footer navigation"><a href="#discover">Explore the town</a><a href="#events">What’s on</a><a href="#visit">Visitor information</a><button data-planner>Your day planner</button></nav></div><div class="footer-bottom"><span>© <span id="year"></span> Alderwick</span><button class="credit-button" id="open-credits">Photography credits</button><a href="#">Back to top ↑</a></div></footer>
-<dialog id="credits-dialog" aria-labelledby="credits-title"><button class="close" data-close aria-label="Close credits">×</button><h2 id="credits-title">Photography credits</h2><p>These photographs celebrate the English countryside and illustrate our town guide.</p><p><a class="text-link" href="https://commons.wikimedia.org/wiki/File:Castle_Combe_-_West_Street_view_eastwards_-_geograph.org.uk_-_3645840.jpg" target="_blank" rel="noopener">Castle Combe — West Street view eastwards</a><br>Rob Farrow</p><p><a class="text-link" href="https://www.geograph.org.uk/photo/7599651" target="_blank" rel="noopener">South Downs Way</a><br>Ian Capper</p><p><a class="text-link" href="https://www.geograph.org.uk/photo/138466" target="_blank" rel="noopener">Chipping Norton Market Place</a><br>Colin Smith</p><p>All photographs licensed under <a class="text-link" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">Creative Commons BY-SA 2.0</a>. Images are displayed with cropping and overlays; originals are linked above.</p></dialog><dialog id="detail-dialog" aria-labelledby="detail-title"><button class="close" data-close aria-label="Close details">×</button><div id="detail-content"></div></dialog>
-<dialog id="planner-dialog" aria-labelledby="planner-title"><button class="close" data-close aria-label="Close planner">×</button><p class="eyebrow">A DAY AT YOUR OWN PACE</p><h2 id="planner-title">Your little escape.</h2><p>Save places as you explore. Your list stays on this device.</p><div id="planner-items"></div><div class="planner-actions"><button class="button green" id="download-plan">Download my day</button><button class="plain" id="clear-plan">Clear list</button></div><p id="planner-status" role="status"></p></dialog>
-<dialog id="gallery-dialog" class="lightbox" aria-label="Photo gallery"><button class="close" data-close aria-label="Close gallery">×</button><img id="gallery-image" src="assets/village.jpg" alt=""><div class="gallery-controls"><button id="gallery-prev" aria-label="Previous photograph">Previous</button><p id="gallery-caption"></p><button id="gallery-next" aria-label="Next photograph">Next</button></div></dialog><div class="toast" id="toast" role="status"></div>
-</body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173d32" />
+    <title>Mestecanis</title>
+    <meta
+      name="description"
+      content="Discover Mestecanis, a mountain village in Romania’s Bucovina region. Follow quiet village lanes, forest paths and mountain views, and get to know local life."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+      <a class="brand" href="#" aria-label="Mestecanis home">
+        <span class="brand-icon">m.</span>
+        <span>
+          Mestecanis
+          <small>A PLACE TO BELONG</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">
+        Menu <span>☰</span>
+      </button>
+
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#discover">Discover</a>
+        <a href="#story">Our story</a>
+        <a href="#events">What’s on</a>
+        <a href="#visit">Plan your visit</a>
+      </nav>
+
+      <button class="header-plan" data-planner>
+        Make a day of it <span class="plan-count">0</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          src="assets/village.jpg"
+          alt="Honey-coloured stone cottages beside a quiet countryside lane"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">A MOUNTAIN VILLAGE. A WARM WELCOME.</p>
+          <h1 id="hero-title">
+            A little closer<br />
+            to the <em>good life.</em>
+          </h1>
+          <p>
+            Forest air. Mountain paths. Room to breathe.<br />
+            Find your own pace in Mestecanis.
+          </p>
+          <a class="button cream" href="#discover">Come on in</a>
+        </div>
+
+        <div class="hero-bottom">
+          <span>YOUR NEXT FAVOURITE LITTLE PLACE</span>
+          <a href="#story">Stay a while. There’s a story here.</a>
+        </div>
+      </section>
+
+      <div class="welcome-strip">
+          <span>In the heart of Bucovina</span>
+        <i>✳</i>
+          <span>Surrounded by mountains</span>
+        <i>✳</i>
+          <span>Local traditions</span>
+        <i>✳</i>
+        <span>Always a warm welcome</span>
+      </div>
+
+      <section class="section discover" id="discover">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p>
+            <h2>Follow your curiosity.</h2>
+          </div>
+          <p>
+            Take the quieter road.<br />
+            Forest trails and village life are close by.
+          </p>
+        </div>
+
+        <div class="explore-tools">
+          <div class="filters" aria-label="Filter places">
+            <button class="active" data-place-filter="all" aria-pressed="true">
+              All discoveries
+            </button>
+            <button data-place-filter="outdoors" aria-pressed="false">
+              The great outdoors
+            </button>
+            <button data-place-filter="culture" aria-pressed="false">
+              History &amp; culture
+            </button>
+            <button data-place-filter="food" aria-pressed="false">
+              Eat &amp; wander
+            </button>
+          </div>
+
+          <label class="search">
+            <span aria-hidden="true">⌕</span>
+            <input
+              id="place-search"
+              type="search"
+              placeholder="Find your kind of place"
+              aria-label="Search places"
+            />
+          </label>
+        </div>
+
+        <div id="place-grid" class="place-grid"></div>
+        <p id="place-empty" hidden>
+          No places match your search. Try “mountain” or choose another category.
+        </p>
+        <p class="result-count" id="place-count" aria-live="polite"></p>
+      </section>
+
+      <section class="story" id="story">
+        <div class="story-photo">
+          <img
+            src="assets/street.jpg"
+            alt="Illustrative photograph of traditional cottages in an English village"
+            loading="lazy"
+          />
+          <span class="photo-note">Mountain air. Bucovinian stories.</span>
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow">NOT JUST A PLACE ON THE MAP</p>
+          <h2>
+            A mountain village.<br />
+            A whole lot<br />
+            of <em>heart.</em>
+          </h2>
+          <p>
+            Set in Romania’s Bucovina region, Mestecanis is a place to slow down and
+            take in the Carpathian foothills. Village lanes lead past gardens and
+            wooden gates, while forest paths and open meadows begin just beyond home.
+          </p>
+          <p>
+            Discover the rhythms of village life, the landscapes of the Carpathians,
+            and the traditions that make Bucovina distinctive. We’d love you to
+            experience it at your own pace.
+          </p>
+          <a class="text-link" href="#visit">Get to know the village</a>
+        </div>
+      </section>
+
+      <section class="section events" id="events">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">GOOD REASONS TO GET TOGETHER</p>
+            <h2>A date with Mestecanis.</h2>
+          </div>
+          <div class="event-filters" aria-label="Filter events">
+            <button class="active" data-event-filter="all" aria-pressed="true">
+              All events
+            </button>
+            <button data-event-filter="community" aria-pressed="false">
+              Community
+            </button>
+            <button data-event-filter="arts" aria-pressed="false">
+              Arts &amp; music
+            </button>
+          </div>
+        </div>
+        <div id="event-list" aria-live="polite"></div>
+      </section>
+
+      <section class="slow-banner">
+        <img
+          src="assets/countryside.jpg"
+          alt="Illustrative photograph of a green landscape in southern England"
+          loading="lazy"
+        />
+        <div>
+            <p class="eyebrow">LESS RUSH. MORE MOUNTAIN AIR.</p>
+          <h2>
+            Some days are better<br />
+            without a timetable.
+          </h2>
+          <button class="button cream" data-planner>Find your perfect day</button>
+        </div>
+      </section>
+
+      <section class="section visit" id="visit">
+        <div>
+          <p class="eyebrow">WE’LL PUT THE KETTLE ON</p>
+          <h2>
+            A little planning.<br />
+            A lovely day out.
+          </h2>
+          <p>
+            Bring sturdy shoes, a light for changing mountain weather, and time to
+            wander village lanes and nearby trails.
+          </p>
+          <button class="button green" data-planner>Build my day in Mestecanis</button>
+        </div>
+
+        <div class="faq">
+          <details open>
+            <summary>Begin in the village</summary>
+            <p>
+              Take a gentle walk through the village first, then ask a local host
+              about nearby paths and places to stop. Opening hours and services can
+              vary with the season.
+            </p>
+          </details>
+          <details>
+            <summary>Explore on foot</summary>
+            <p>
+              Explore at an easy pace and allow extra time for steep or uneven ground.
+              Trail conditions can change after rain, so check locally before setting
+              out into the hills.
+            </p>
+          </details>
+          <details>
+            <summary>Make it a family day</summary>
+            <p>
+              Choose a shorter village walk, take breaks for the views, and check
+              trail conditions before heading uphill. Check event details for age
+              guidance and accessibility information.
+            </p>
+          </details>
+          <details>
+            <summary>Rain in the forecast?</summary>
+            <p>
+              Mountain weather can turn quickly. Ask your accommodation or local host
+              about indoor options and current road conditions before travelling.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="gallery-title">
+          <p class="eyebrow">POSTCARDS FROM HERE</p>
+          <h2>A place worth a second look.</h2>
+          <p>Select a photograph to take a closer look.</p>
+        </div>
+
+        <div class="gallery">
+          <button data-gallery="0">
+            <img src="assets/village.jpg" alt="Open photograph of the village cottages" loading="lazy" />
+            <span>The quiet corners</span>
+          </button>
+          <button data-gallery="1">
+            <img src="assets/countryside.jpg" alt="Open photograph of rolling countryside" loading="lazy" />
+            <span>A breath of fresh air</span>
+          </button>
+          <button data-gallery="2">
+            <img src="assets/street.jpg" alt="Open photograph of the historic village street" loading="lazy" />
+            <span>Stories in every stone</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <a class="brand" href="#">
+          <span class="brand-icon">m.</span>
+          <span>
+            mestecanis
+            <small>A PLACE TO BELONG</small>
+          </span>
+        </a>
+
+        <p>
+          Come for the day.<br />
+          <em>Feel at home.</em>
+        </p>
+
+        <nav aria-label="Footer navigation">
+          <a href="#discover">Explore the village</a>
+          <a href="#events">What’s on</a>
+          <a href="#visit">Visitor information</a>
+          <button data-planner>Your day planner</button>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Mestecanis</span>
+        <button class="credit-button" id="open-credits">Photography credits</button>
+        <a href="#">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <dialog id="credits-dialog" aria-labelledby="credits-title">
+      <button class="close" data-close aria-label="Close credits">×</button>
+      <h2 id="credits-title">Photography credits</h2>
+      <p>These illustrative photographs show locations in England, not Romania. They are credited below.</p>
+      <p>
+        <a
+          class="text-link"
+          href="https://commons.wikimedia.org/wiki/File:Castle_Combe_-_West_Street_view_eastwards_-_geograph.org.uk_-_3645840.jpg"
+          target="_blank"
+          rel="noopener"
+        >
+          Castle Combe — West Street view eastwards
+        </a>
+        <br />
+        Rob Farrow
+      </p>
+      <p>
+        <a
+          class="text-link"
+          href="https://www.geograph.org.uk/photo/7599651"
+          target="_blank"
+          rel="noopener"
+        >
+          South Downs Way
+        </a>
+        <br />
+        Ian Capper
+      </p>
+      <p>
+        <a
+          class="text-link"
+          href="https://www.geograph.org.uk/photo/138466"
+          target="_blank"
+          rel="noopener"
+        >
+          Chipping Norton Market Place
+        </a>
+        <br />
+        Colin Smith
+      </p>
+      <p>
+        All photographs licensed under
+        <a
+          class="text-link"
+          href="https://creativecommons.org/licenses/by-sa/2.0/"
+          target="_blank"
+          rel="noopener"
+        >
+          Creative Commons BY-SA 2.0
+        </a>
+        . Images are displayed with cropping and overlays; originals are linked above.
+      </p>
+    </dialog>
+
+    <dialog id="detail-dialog" aria-labelledby="detail-title">
+      <button class="close" data-close aria-label="Close details">×</button>
+      <div id="detail-content"></div>
+    </dialog>
+
+    <dialog id="planner-dialog" aria-labelledby="planner-title">
+      <button class="close" data-close aria-label="Close planner">×</button>
+      <p class="eyebrow">A DAY AT YOUR OWN PACE</p>
+      <h2 id="planner-title">Your little escape.</h2>
+      <p>Save places as you explore. Your list stays on this device.</p>
+      <div id="planner-items"></div>
+      <div class="planner-actions">
+        <button class="button green" id="download-plan">Download my day</button>
+        <button class="plain" id="clear-plan">Clear list</button>
+      </div>
+      <p id="planner-status" role="status"></p>
+    </dialog>
+
+    <dialog id="gallery-dialog" class="lightbox" aria-label="Photo gallery">
+      <button class="close" data-close aria-label="Close gallery">×</button>
+      <img id="gallery-image" src="assets/village.jpg" alt="" />
+      <div class="gallery-controls">
+        <button id="gallery-prev" aria-label="Previous photograph">Previous</button>
+        <p id="gallery-caption"></p>
+        <button id="gallery-next" aria-label="Next photograph">Next</button>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status"></div>
+  </body>
+</html>
+
