@@ -502,5 +502,3 @@ $('.plan-count').textContent = saved.length;
 renderPlaces();
 renderEvents();
 renderPlanner();
-
-$('#open-credits').addEventListener('click', () => openDialog('#credits-dialog'));
